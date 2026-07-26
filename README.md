@@ -93,15 +93,15 @@ The learned representations are evaluated using two qualitative methods.
 
 Because the output embeddings are two-dimensional, they can be displayed directly in a scatter plot.
 
-The color-sensitive model can be visualized by coloring each point according to its ground-truth color class. The shape-sensitive model can be visualized by labeling each point according to its shape class.
+The color-sensitive model can be visualized by coloring each point according to its ground-truth color class.
 
-Add the generated visualizations here:
 
-```markdown
 ![Color-sensitive embedding space](results/zspace_tc.png)
 
+The shape-sensitive model can be visualized by labeling each point according to its shape class.
+
 ![Shape-sensitive embedding space](results/zspace_ts.png)
-```
+
 
 ### Nearest-Neighbor Retrieval
 
@@ -109,11 +109,11 @@ For each query image, the project calculates cosine similarity between its embed
 
 The most similar images are then displayed alongside the query, making it possible to inspect whether the learned representation prioritizes the intended visual attribute.
 
-```markdown
+
 ![Color-sensitive nearest neighbors](results/nearest_neighbor_tc.png)
 
 ![Shape-sensitive nearest neighbors](results/nearest_neighbor_ts.png)
-```
+
 
 ## Running the Project
 
