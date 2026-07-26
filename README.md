@@ -98,9 +98,9 @@ The color-sensitive model can be visualized by coloring each point according to 
 Add the generated visualizations here:
 
 ```markdown
-![Color-sensitive embedding space](results/color_embedding.png)
+![Color-sensitive embedding space](results/zspace_tc.png)
 
-![Shape-sensitive embedding space](results/shape_embedding.png)
+![Shape-sensitive embedding space](results/zspace_ts.png)
 ```
 
 ### Nearest-Neighbor Retrieval
@@ -110,9 +110,9 @@ For each query image, the project calculates cosine similarity between its embed
 The most similar images are then displayed alongside the query, making it possible to inspect whether the learned representation prioritizes the intended visual attribute.
 
 ```markdown
-![Color-sensitive nearest neighbors](results/color_nearest_neighbors.png)
+![Color-sensitive nearest neighbors](results/nearest_neighbor_tc.png)
 
-![Shape-sensitive nearest neighbors](results/shape_nearest_neighbors.png)
+![Shape-sensitive nearest neighbors](results/nearest_neighbor_ts.png)
 ```
 
 ## Running the Project
@@ -146,10 +146,10 @@ Learning_Shape_and_Color_with_Contrastive_Learning_Exercise/
 ├── README.md
 ├── shape_and_color_with_contrastive_learning.ipynb
 └── results/
-    ├── color_embedding.png
-    ├── shape_embedding.png
-    ├── color_nearest_neighbors.png
-    └── shape_nearest_neighbors.png
+    ├── zspace_tc.png
+    ├── nearest_neighbor_tc.png
+    ├── zspace_ts.png
+    └── nearest_neighbor_ts.png
 ```
 
 ## Attribution
